@@ -1,0 +1,30 @@
+{
+  "name": "lib-a",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/lib-a.cjs.js",
+  "module": "dist/lib-a.es.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "files": ["dist"],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "rollup": "^1.6.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "styled-components": "^4.1.3"
+  }
+}

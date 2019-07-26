@@ -1,0 +1,13 @@
+{
+  "name": "sc-babel-debug",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn workspace lib-a run build && yarn workspace lib-b run test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
